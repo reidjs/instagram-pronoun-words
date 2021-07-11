@@ -1,5 +1,5 @@
 # About
-Instagram allows you to put between 1-4 pronouns next to your name. I thought it would be fun to see what english words you can create from their list of 40 pronouns.
+Instagram allows you to put between 1-4 pronouns next to your name. I thought it would be fun to see what english words you can create from their list of 40 possible pronouns.
 
 ## Word List
 co
@@ -62,10 +62,7 @@ nerver
 theyve
 enerve
 
-
 ## Usage
-python pronouns_to_words.py >> output.txt
+1. put a dictionary named 'words_alpha.txt' in the root folder, e.g., https://github.com/dwyl/english-words
+2. `python pronouns_to_words.py >> output.txt`
 
-## Acknowledgements
-dictionary from:
-https://github.com/dwyl/english-words
