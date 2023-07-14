@@ -1,68 +1,8 @@
 # About
-Instagram allows you to put between 1-4 pronouns next to your name. I thought it would be fun to see what english words you can create from their list of 40 possible pronouns.
+Instagram allows you to put between 1-4 pronouns next to your name. This code will generate all possible words from the pronoun combinations. This is a fork from [reidjs](https://github.com/reidjs/)'s [project](https://github.com/reidjs/instagram-pronoun-words), as I wanted to update it to include all the new languages that Instagram added pronoun support for (Spanish, Portuguese, French, German, Indonesian, Turkish, Arabic, Farsi, Norwegian, Finnish, Danish, Dutch, and Swedish). 
 
-## Word List
-co
-cos
-e
-ey
-em
-eir
-fae
-he
-him
-his
-she
-her
-hers
-mer
-ne
-nee
-per
-pers
-they
-them
-theirs
-thon
-ver
-vis
-hir
-cocos
-coe
-comer
-comers
-cone
-coner
-coper
-copers
-cothon
-cove
-cover
-coze
-cozie
-cose
-cosey
-cosher
-coshers
-emer
-eve
-ever
-eyne
-emmer
-emmers
-himne
-herne
-herve
-neper
-neve
-never
-neeze
-nerve
-nerver
-theyve
-enerve
+The updates to this list allows for a total of 586 words. In comparison, the original list with only English pronouns allowed for 59 different words.
 
 ## Usage
-1. put a dictionary named 'words_alpha.txt' in the root folder, e.g., https://github.com/dwyl/english-words
-2. `python pronouns_to_words.py >> output.txt`
+1. `python pronouns_to_words.py >> output_words.txt`
 
