@@ -1,7 +1,7 @@
 import itertools
 import sys
 
-words = open("words_alpha.txt").readlines()
+words = open("words_alpha.txt", encoding="utf8").readlines()
 dictionary = {}
 for word in words:
     w = word.strip()
